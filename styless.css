@@ -1,0 +1,114 @@
+body {
+    display: grid;
+    grid-template-areas: 'header-cell' 'main-cell' 'footer-cell';
+    font-family: Helvetica, Arial, sans-serif;
+    margin: 0 auto;
+    padding: 0 5px;
+    font-size: 1.2em;
+    width: 1024px;
+    background-image: url(./img/bg.jpeg);
+    background-size: 100% 160%;
+}
+
+header {
+    grid-area: header-cell;
+    border: 1px solid #ccc7c8;
+    border-radius: 5px;
+    padding: 0 5px;
+    height: 150px;
+    background-color: none;
+}
+
+.article {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    border: 5px solid plum;
+    padding: 10px;
+    background-color: #ffffff80;
+    margin-top: 15px;
+}
+
+.article2 {
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+    padding: 10px;
+    margin-top: 50px;
+}
+
+.col1 {
+    width: 20%;
+}
+
+.avatar {
+    margin-top: 7px;
+    margin-left: 50px;
+    width: 130px;
+    height: 130px;
+    border-radius: 10px;
+    border: 3px solid white;
+}
+
+.col2 {
+    margin-top: 0;
+    margin-bottom: 5px;
+    padding: 0 5px;
+    color: aqua;
+    text-align: justify;
+    width: 78%;
+}
+
+.h1 {
+    text-shadow: 5px 2px 4px yellow;
+    font-size: 5rem;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.h2 {
+    color: red;
+    text-shadow: 5px 2px 4px yellow;
+    font-size: 3rem;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.h2:hover {
+    color: aqua;
+}
+
+.col3 {
+    padding: 10px 4px;
+    border: 10px solid rgb(0, 217, 255);
+    background-image: url(./img/bg3.jpeg);
+    width: 20%;
+    text-align: center;
+}
+
+.col4 {
+    padding: 10px 4px;
+    border: 10px solid rgb(0, 217, 255);
+    background-image: url(./img/bg3.jpeg);
+    margin-left: 5%;
+    width: 20%;
+    text-align: center;
+}
+
+.col5 {
+    padding: 10px 4px;
+    border: 10px solid rgb(0, 217, 255);
+    background-image: url(./img/bg3.jpeg);
+    margin-left: 5%;
+    width: 20%;
+    text-align: center;
+}
+
+.col6 {
+    padding: 10px 4px;
+    border: 10px solid rgb(0, 217, 255);
+    background-image: url(./img/bg3.jpeg);
+    margin-left: 5%;
+    width: 20%;
+    text-align: center;
+}
